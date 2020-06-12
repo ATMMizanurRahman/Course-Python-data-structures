@@ -1,0 +1,193 @@
+1. String er majer index gula
+
+fruit='banana'
+letter=fruit[1]    //String index
+print(letter)
+print(len(fruit))  // String len
+
+
+///loop diye puro string
+
+i=0
+while i < len(text):
+    print text[i]
+    i += 1
+
+
+for let in fruit:
+    print(let)
+     
+
+/// ek jaiga theke Onno Jaiga
+
+s='Montry Python'
+print(s[0:4])
+print(s[6:100])
+
+///Exist kore Kina
+
+fruit='banana'
+'n' in fruit
+'nan' in fruit
+
+
+//Lexicographily boto kina
+
+fruit='banana'
+if fruit>'baabab':
+    print('yes')   //Uppercase letter val , low theke kom. 65-90,97-122 eta use kore
+else:
+    print('no')
+
+
+
+//Lowercase Kora
+
+gret='HELLO SurJo'
+a=gret.lower()
+print(a)
+
+
+//
+dir(a) dile eta ki ki krte parbe seta dekhai
+
+
+//String Search Kora
+
+fruit='banana'
+a=fruit.find('na')
+print(a)             //output 2 ase.na pele -1
+
+
+//String ke replace kora
+
+fruit='Hello banana'
+a=fruit.replace('banana','apple')
+print(a)
+
+//space remove
+print(fruit.rstrip()) // right side re space sorai. lstrip,rstrip,strip
+
+//Ekta Soto portion ber kora
+data='hello man how are you'
+a=data[2:5]
+print(a)
+
+
+
+///Newline Character take /n diyei dite hoi
+
+
+
+
+
+2. FILE 
+
+
+a=open('hello.txt')
+for b in a:
+     print(b) // File e line by line porar Jonno
+
+
+a=open('hello.txt')         //eta dia ekbare Pora Jai
+b=a.read()
+print(b)
+
+
+
+
+3. LIST
+
+for i in ['surjo','mama','khala']:
+    print('Hello',i)
+friends=['aa','bb','cc']
+print(friends[1])                             ///1st Index Hoilo 0
+
+
+.///List ke Slice kora jai
+
+t=[12,3,4,5,1,23]
+t[1:4]
+t[:4]
+
+
+./// Nije Nije List Bananp Jai
+
+s=list()
+s.append('book')
+s.append(4)
+print(s)
+
+
+//Sort o kora jai
+s.sort()
+print(s[0])
+
+//// Defined Functions
+
+
+t=[12,3,4,5,1,23]
+print(max(t))
+print(min(t))
+print(sum(t))
+print(sum(t)/len(t))
+
+
+///String Split Kora
+
+
+string='hello  how are you'
+a=string.split()
+print(a)
+
+delimter chaile deo jai
+string.split(;)
+
+
+
+
+
+4. Dictionaris. Asole Map Typer beparta
+
+
+purse=dict()
+purse['money']=10
+purse['candy']=1
+purse['juice']=5
+print(purse)
+
+//Initialize korle
+
+purse={'money':10,'candy':5}
+print(purse)
+
+/// Ekta List e koita name koibar ase seta count
+
+count=dict()
+name=['shuvo','surjo','ammu','abbu','shuvo']
+for i in name:
+    if i not in count:
+        count[i]=1
+    else:
+        count[i]=count[i]+1
+print(count)     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
